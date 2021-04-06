@@ -1,10 +1,12 @@
 import React from "react"
 import Layout from "../components/Layout"
 
-export default function Home() {
+const Guitars = () => {
   return (
     <Layout>
-      <h1>Home</h1>
+      <h2>guitars</h2>
     </Layout>
   )
 }
+
+export default Guitars
