@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Expletus+Sans:wght@600&family=Montserrat&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -8,4 +10,35 @@ ul {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+h1 {
+  font-family: "Expletus Sans", cursive;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+}
+
+.error-page {
+  display: flex;
+  justify-content: center;
+  margin: 3rem;
+  section {
+    h1 {
+      font-size: 9em;
+      text-align: center;
+    }
+    p {
+      text-align: center;
+    }
+  }
+}
+
+.footer-bar {
+  display: flex;
+  justify-content: center;
+  span {
+    margin: 0 0.5em;
+  }
 }

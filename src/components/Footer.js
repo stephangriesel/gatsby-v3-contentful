@@ -1,19 +1,12 @@
 import React from "react"
-import styled from "styled-components"
 
 const Footer = () => {
   return (
-    <FooterWrapper>
-      <p>
-        &copy; {new Date().getFullYear()}
-        <span> Guitar Mania</span>
-      </p>
-    </FooterWrapper>
+    <p className="footer-bar">
+      &copy; {new Date().getFullYear()}
+      <span>Guitar Mania</span>
+    </p>
   )
 }
-
-const FooterWrapper = styled.div`
-  //
-`
 
 export default Footer
