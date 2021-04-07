@@ -20,6 +20,13 @@ p {
   font-family: "Montserrat", sans-serif;
 }
 
+.btn {
+  background: #000;
+  color: #fff;
+  padding: 0.2rem 0.5rem;
+  border: none;
+}
+
 .error-page {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -37,6 +44,20 @@ p {
 
 .error-page section p {
   text-align: center;
+}
+
+.contact-page h1 {
+  font-size: 2rem;
+}
+
+.contact-page .contact-page-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 1rem;
 }
 
 .footer-bar {
