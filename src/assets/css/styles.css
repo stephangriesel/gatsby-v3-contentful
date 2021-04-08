@@ -27,6 +27,37 @@ p {
   border: none;
 }
 
+.nav-bar {
+  background: red;
+}
+
+.nav-bar .nav-links {
+  height: 0;
+  overflow: hidden;
+  -webkit-transition: 0.3s ease-in-out all;
+  transition: 0.3s ease-in-out all;
+}
+
+.nav-bar .show-links {
+  height: 20em;
+  background: blue;
+}
+
+.nav-bar .nav-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.nav-bar .nav-center .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .error-page {
   display: -webkit-box;
   display: -ms-flexbox;

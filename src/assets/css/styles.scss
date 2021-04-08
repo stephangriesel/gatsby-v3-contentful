@@ -28,6 +28,31 @@ p {
   border: none;
 }
 
+// Navigation
+
+.nav-bar {
+  .nav-links {
+    height: 0;
+    overflow: hidden;
+    transition: 0.3s ease-in-out all;
+  }
+  .show-links {
+    height: 20em;
+    background: blue;
+  }
+  background: red;
+  .nav-center {
+    display: flex;
+    justify-content: space-between;
+    .links {
+      display: flex;
+      .contact-link {
+        //
+      }
+    }
+  }
+}
+
 .error-page {
   display: flex;
   justify-content: center;
