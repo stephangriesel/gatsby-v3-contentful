@@ -12,7 +12,7 @@ const About = () => {
             <h2>Header</h2>
             <p>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex,
-              voluptatibus?
+              voluptatibus? Lorem. Lorem ipsum dolor sit.
             </p>
             <Link to="/contact" className="btn">
               Contact Us
