@@ -88,6 +88,17 @@ p {
   text-align: center;
 }
 
+.about-page-section {
+  background-color: red;
+  display: -ms-grid;
+  display: grid;
+  gap: 2rem 4rem;
+}
+
+.about-page-section .about-img {
+  height: 500px;
+}
+
 .contact-page h1 {
   font-size: 2rem;
 }
@@ -147,6 +158,18 @@ p {
   }
   .nav-bar .nav-center .nav-header .nav-btn {
     display: none;
+  }
+  .about-page-section {
+    background-color: green;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 400px;
+  }
+  .about-page-section .about-img {
+    height: 100%;
   }
 }
 /*# sourceMappingURL=styles.css.map */

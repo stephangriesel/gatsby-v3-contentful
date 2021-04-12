@@ -74,6 +74,15 @@ p {
   }
 }
 
+.about-page-section {
+  background-color: red;
+  display: grid;
+  gap: 2rem 4rem;
+  .about-img {
+    height: 500px;
+  }
+}
+
 .contact-page {
   h1 {
     font-size: 2rem;
@@ -120,6 +129,16 @@ p {
           //
         }
       }
+    }
+  }
+
+  .about-page-section {
+    background-color: green;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    height: 400px;
+    .about-img {
+      height: 100%;
     }
   }
 }
