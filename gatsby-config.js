@@ -5,7 +5,27 @@
  */
 
 module.exports = {
-  flags: { PRESERVE_WEBPACK_CACHE: true },
+  // flags: { PRESERVE_WEBPACK_CACHE: true },
+  siteMetadata: {
+    title: "Guitar Mania",
+    description: "Rock out with your cock out",
+    author: "@stevegriesel",
+    person: {
+      name: "Stephan",
+      age: "35",
+    },
+    testDataBasic: ["item1", "item 2", "item 3"],
+    testDataAdvanced: [
+      {
+        name: "Stephan",
+        age: "36",
+      },
+      {
+        name: "Belinda",
+        age: "32",
+      },
+    ],
+  },
   plugins: [
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-image`,
