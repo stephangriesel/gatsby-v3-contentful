@@ -15,7 +15,7 @@ const contact = () => {
               quam veniam ipsum minus. Impedit.
             </p>
           </article>
-          <article>
+          <article className="form-section">
             <form className="contact-form">
               <div className="form-row">
                 <label htmlFor="name">Your Name</label>

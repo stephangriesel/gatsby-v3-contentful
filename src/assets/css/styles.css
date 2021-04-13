@@ -99,18 +99,11 @@ p {
   height: 500px;
 }
 
-.contact-page h1 {
-  font-size: 2rem;
-}
-
-.contact-page .contact-page-section {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  margin: 1rem;
+.contact-page-section {
+  background-color: red;
+  display: -ms-grid;
+  display: grid;
+  gap: 2rem 4rem;
 }
 
 .footer-bar {
@@ -170,6 +163,15 @@ p {
   }
   .about-page-section .about-img {
     height: 100%;
+  }
+  .contact-page-section {
+    background-color: green;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 400px;
   }
 }
 /*# sourceMappingURL=styles.css.map */
