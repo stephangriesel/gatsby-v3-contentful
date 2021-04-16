@@ -1,6 +1,7 @@
 import React from "react"
 import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/Layout"
+import AllGuitars from "../components/AllGuitars"
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
             </div>
           </div>
         </header>
+        <AllGuitars />
       </main>
     </Layout>
   )

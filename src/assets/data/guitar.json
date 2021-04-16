@@ -1,0 +1,11 @@
+{
+  "tags": ["fender", "telecaster", "electric"],
+  "weightanddimensions": ["3.5kg", "112,0 x 38,0 x 11,0 cm"],
+  "basicinfo": ["electric guitar", "colour: sunburst", "frets: 21"],
+  "productspecs": [
+    "hardware: chrome",
+    "elektronica: 1x master volume, 2x tone (hals en midden), 5-weg elementschakelaar",
+    "snaren: Fender USA Super 250L, NPS .009 - .042",
+    "body materiaal: Basswood (lindehout)"
+  ]
+}

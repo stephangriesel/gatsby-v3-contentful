@@ -1,10 +1,13 @@
 import React from "react"
 import Layout from "../components/Layout"
+import AllGuitars from "../components/AllGuitars"
 
 const Guitars = () => {
   return (
     <Layout>
-      <h2>guitars</h2>
+      <main className="page">
+        <AllGuitars />
+      </main>
     </Layout>
   )
 }
