@@ -32,11 +32,11 @@ const AllGuitars = () => {
   console.log("test data for guitar data", guitars)
 
   return (
-    <div>
+    <section className="guitars-container">
       <h2>All Guitars</h2>
       <TagsList guitars={guitars} />
       <GuitarList guitars={guitars} />
-    </div>
+    </section>
   )
 }
 
