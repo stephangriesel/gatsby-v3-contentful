@@ -1,6 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import { GatsbyImage, getImage } from "gatsby-plugin-image" // getImage helper function: https://www.gatsbyjs.com/docs/reference/built-in-components/gatsby-plugin-image/#getimage
+// import styled from "styled-components"
 
 const GuitarList = ({ guitars = [] }) => {
   return (
