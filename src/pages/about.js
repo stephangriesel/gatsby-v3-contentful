@@ -1,9 +1,15 @@
 import React from "react"
 import Layout from "../components/Layout"
 import { StaticImage } from "gatsby-plugin-image"
-import { Link } from "gatsby"
+import { Link, graphql } from "gatsby"
+import GuitarList from "../components/GuitarList"
 
-const About = () => {
+const About = ({
+  data: {
+    allContentfulGuitar: { nodes: guitars },
+  },
+}) => {
+  console.log("test data for featured item", guitars)
   return (
     <Layout>
       <main className="page">
@@ -25,9 +31,37 @@ const About = () => {
             placeholder="blurred"
           />
         </section>
+        <section className="featured-guitars">
+          <h1>Featured Guitars</h1>
+          <GuitarList guitars={guitars} />
+        </section>
       </main>
     </Layout>
   )
 }
+
+export const query = graphql`
+  {
+    allContentfulGuitar(
+      sort: { fields: title, order: ASC }
+      filter: { featured: { eq: true } }
+    ) {
+      nodes {
+        id
+        title
+        content {
+          id
+        }
+        image {
+          gatsbyImageData(
+            layout: CONSTRAINED
+            backgroundColor: "#000000"
+            placeholder: DOMINANT_COLOR
+          )
+        }
+      }
+    }
+  }
+`
 
 export default About
