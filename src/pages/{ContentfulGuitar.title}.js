@@ -1,9 +1,10 @@
 import React from "react"
 
-const GuitarTemplate = () => {
+const GuitarTemplate = props => {
+  console.log("template page data test", props)
   return (
     <div>
-      <h4>Guitar Template</h4>
+      <h4>{props.params.title}</h4>
     </div>
   )
 }
