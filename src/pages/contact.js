@@ -16,7 +16,11 @@ const contact = () => {
             </p>
           </article>
           <article className="form-section">
-            <form className="contact-form">
+            <form
+              className="contact-form"
+              action="https://formspree.io/f/mknkgeok"
+              method="POST"
+            >
               <div className="form-row">
                 <label htmlFor="name">Your Name</label>
                 <input type="text" name="name" id="name" />
