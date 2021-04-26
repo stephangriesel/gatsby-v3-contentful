@@ -3,12 +3,14 @@ import Layout from "../components/Layout"
 import { Link, graphql } from "gatsby"
 import setupTags from "../utils/setupTags"
 import slugify from "slugify"
+import SEO from "../components/SEO"
 
 const Tags = ({ data }) => {
   console.log("tags page data test", data)
   const newTags = setupTags(data.allContentfulGuitar.nodes)
   return (
     <Layout>
+      <SEO title="Tags" />
       <main className="page">
         <section className="tags-page">
           {newTags.map((tag, index) => {

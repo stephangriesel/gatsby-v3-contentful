@@ -13,7 +13,7 @@ const About = ({
   console.log("test data for featured item", guitars)
   return (
     <Layout>
-      <SEO title="About" description="rendered about page" />
+      <SEO title="About" />
       <main className="page">
         <section className="about-page-section">
           <article>

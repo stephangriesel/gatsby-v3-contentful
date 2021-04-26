@@ -4,6 +4,7 @@ import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import { BsFillInfoCircleFill, BsFileEarmarkText } from "react-icons/bs"
 import { BiCalculator } from "react-icons/bi"
 import slugify from "slugify"
+import SEO from "../components/SEO"
 
 import Layout from "../components/Layout"
 
@@ -21,6 +22,7 @@ const GuitarTemplate = ({ data }) => {
   const { productspecs, weightanddimensions, tags, basicinfo } = content // destructure content data
   return (
     <Layout>
+      <SEO title={title} description={description} />
       <main className="page">
         <div className="guitar-page">
           <section className="guitar-hero">

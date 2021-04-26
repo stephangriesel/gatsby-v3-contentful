@@ -7,7 +7,7 @@ import SEO from "../components/SEO"
 export default function Home() {
   return (
     <Layout>
-      <SEO title="Home Page" description="rendered homepage" />
+      <SEO title="Home" />
       <main>
         <header className="hero">
           <StaticImage
