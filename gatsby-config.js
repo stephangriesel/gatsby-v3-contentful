@@ -72,5 +72,6 @@ module.exports = {
     //     path: `${__dirname}/src/examples`,
     //   },
     // },
+    `gatsby-plugin-react-helmet`,
   ],
 }

@@ -2,10 +2,12 @@ import React from "react"
 import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/Layout"
 import AllGuitars from "../components/AllGuitars"
+import SEO from "../components/SEO"
 
 export default function Home() {
   return (
     <Layout>
+      <SEO />
       <main>
         <header className="hero">
           <StaticImage
